@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "sass": "^1.16.1"
+  },
+  "scripts": {
+    "sass-build": "sass sass/app.scss assets/css/app.css --watch"
+  }
+}
