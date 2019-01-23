@@ -1,7 +1,9 @@
+@charset "UTF-8";
 body {
   direction: rtl;
   text-align: right;
-  font-family: "IRANSans";
+  font-family: "iranyekan";
+  font-size: 12px;
 }
 
 .fa {
@@ -36,6 +38,131 @@ header .main-header .user-login a {
   color: #666;
   display: inline-block;
   margin-left: 10px;
+}
+header .main-menu {
+  background: #333;
+}
+header .main-menu .container > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+header .main-menu .container > ul > li {
+  display: inline-block;
+  margin-left: 10px;
+  position: static;
+}
+header .main-menu .container > ul > li > a {
+  display: block;
+  padding: 10px 5px;
+  color: #fff;
+  border-bottom: 2px solid transparent;
+  transition: all 500ms;
+}
+header .main-menu .container > ul > li > a:hover {
+  text-decoration: unset;
+  border-bottom-color: #f16670;
+  background: #666;
+}
+header .main-menu .container > ul > li:hover .mega-menu {
+  opacity: 1;
+  visibility: visible;
+}
+header .main-menu .container > ul > li .mega-menu {
+  background: #fff;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 0 5px #ccc;
+  padding: 15px 0;
+  border-radius: 0 0 10px 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 300ms;
+}
+header .main-menu .container > ul > li .mega-menu ul {
+  list-style: none;
+}
+header .main-menu .container > ul > li .mega-menu ul li {
+  margin-bottom: 5px;
+}
+header .main-menu .container > ul > li .mega-menu ul li a {
+  display: block;
+  color: #333;
+}
+header .main-menu .container > ul > li .mega-menu ul li a:hover {
+  text-decoration: unset;
+  font-weight: 700;
+}
+header .main-menu .container > ul > li .mega-menu ul li:first-child a {
+  color: #1ca2bd;
+  border-bottom: 1px dashed transparent;
+}
+header .main-menu .container > ul > li .mega-menu ul li:first-child a:hover {
+  border-bottom-color: #1ca2bd;
+}
+header .main-menu .container > ul > li .mega-menu ul li:first-child a:before {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: -15px;
+  padding-left: 8px;
+  vertical-align: middle;
+}
+
+main .sliders .arrow {
+  position: absolute;
+  z-index: 100;
+  background: unset;
+  border: unset;
+  color: #fff;
+  text-shadow: 0 3px 7px #000;
+  font-size: 32px;
+  line-height: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+main .sliders .arrow.prev {
+  left: 15px;
+}
+main .sliders .arrow.next {
+  right: 15px;
+}
+main .sliders .arrow:focus {
+  outline: unset;
+}
+main .sliders .slick-dots {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  text-align: center;
+  bottom: 20px;
+}
+main .sliders .slick-dots li {
+  display: inline-block;
+}
+main .sliders .slick-dots li button {
+  line-height: 0;
+  font-size: 0;
+  background: unset;
+  border: unset;
+}
+main .sliders .slick-dots li button:after {
+  content: "";
+  display: block;
+  background: #fff;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+main .sliders .slick-dots li button:focus {
+  outline: unset;
+}
+main .sliders .slick-dots li.slick-active button:after {
+  background: #1ca2bd;
 }
 
 /*# sourceMappingURL=app.css.map */

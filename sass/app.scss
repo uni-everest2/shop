@@ -1,7 +1,8 @@
 body {
     direction: rtl;
     text-align: right;
-    font-family: "IRANSans";
+    font-family: "iranyekan";
+    font-size: 12px;
 }
 .fa {
     vertical-align: middle;
@@ -37,6 +38,142 @@ header {
                 color: #666;
                 display: inline-block;
                 margin-left: 10px;
+            }
+        }
+    }
+    .main-menu {
+        background: #333;
+        .container > ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            position: relative;
+            > li {
+                display: inline-block;
+                margin-left: 10px;
+                position: static;
+                > a {
+                    display: block;
+                    padding: 10px 5px;
+                    color: #fff;
+                    border-bottom: 2px solid transparent;
+                    transition: all 500ms;
+                    &:hover {
+                        text-decoration: unset;
+                        border-bottom-color: #f16670;
+                        background: #666;
+                    }
+                }
+                &:hover {
+                    .mega-menu {
+                        opacity: 1;
+                        visibility: visible;
+                        // transform: rotateX(0);
+                    }
+                }
+                .mega-menu {
+                    background: #fff;
+                    position: absolute;
+                    width: 100%;
+                    box-shadow: 0 0 5px #ccc;
+                    padding: 15px 0;
+                    border-radius: 0 0 10px 10px;
+                    opacity: 0;
+                    // transform: rotateX(90deg);
+                    visibility: hidden;
+                    transition: all 300ms;
+                    ul {
+                        list-style: none;
+                        li {
+                            margin-bottom: 5px;
+                            a {
+                                display: block;
+                                color: #333;
+                                &:hover {
+                                    text-decoration: unset;
+                                    font-weight: 700;
+                                }
+                            }
+                            &:first-child {
+                                a {
+                                    color: #1ca2bd;
+                                    border-bottom: 1px dashed transparent;
+                                    &:hover {
+                                        border-bottom-color: #1ca2bd;
+                                    }
+                                    &:before {
+                                        content: "\f104";
+                                        font-family: "Font Awesome 5 Free";
+                                        font-weight: 900;
+                                        margin-right: -15px;
+                                        padding-left: 8px;
+                                        vertical-align: middle;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+main {
+    .sliders {
+        .arrow {
+            position: absolute;
+            z-index: 100;
+            background: unset;
+            border: unset;
+            color: #fff;
+            text-shadow: 0 3px 7px #000;
+            font-size: 32px;
+            line-height: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            &.prev {
+                left: 15px;
+            }
+            &.next {
+                right: 15px;
+            }
+            &:focus {
+                outline: unset;
+            }
+        }
+        .slick-dots {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            right: 0;
+            left: 0;
+            text-align: center;
+            bottom: 20px;
+            li {
+                display: inline-block;
+                button {
+                    line-height: 0;
+                    font-size: 0;
+                    background: unset;
+                    border: unset;
+                    &:after {
+                        content: "";
+                        display: block;
+                        background: #fff;
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                    }
+                    &:focus {
+                        outline: unset;
+                    }
+                }
+                &.slick-active {
+                    button:after {
+                        background: #1ca2bd;
+                    }
+                }
             }
         }
     }
