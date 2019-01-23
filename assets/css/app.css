@@ -10,6 +10,10 @@ body {
   vertical-align: middle;
 }
 
+a:hover {
+  text-decoration: unset;
+}
+
 header .main-header {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -78,6 +82,7 @@ header .main-menu .container > ul > li .mega-menu {
   border-radius: 0 0 10px 10px;
   opacity: 0;
   visibility: hidden;
+  z-index: 101;
   transition: all 300ms;
 }
 header .main-menu .container > ul > li .mega-menu ul {

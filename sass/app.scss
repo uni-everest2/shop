@@ -7,6 +7,9 @@ body {
 .fa {
     vertical-align: middle;
 }
+a:hover {
+    text-decoration: unset;
+}
 header {
     .main-header {
         padding: {
@@ -81,6 +84,7 @@ header {
                     opacity: 0;
                     // transform: rotateX(90deg);
                     visibility: hidden;
+                    z-index: 101;
                     transition: all 300ms;
                     ul {
                         list-style: none;
