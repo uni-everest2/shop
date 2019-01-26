@@ -125,6 +125,7 @@ header {
 }
 main {
     .sliders {
+        margin-bottom: 2rem;
         .arrow {
             position: absolute;
             z-index: 100;
@@ -183,7 +184,6 @@ main {
         }
     }
     .offers {
-        margin-top: 2rem;
         margin-bottom: 2rem;
         h2 {
             font-size: 22px;

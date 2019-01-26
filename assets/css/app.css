@@ -116,6 +116,9 @@ header .main-menu .container > ul > li .mega-menu ul li:first-child a:before {
   vertical-align: middle;
 }
 
+main .sliders {
+  margin-bottom: 2rem;
+}
 main .sliders .arrow {
   position: absolute;
   z-index: 100;
@@ -171,7 +174,6 @@ main .sliders .slick-dots li.slick-active button:after {
   background: #1ca2bd;
 }
 main .offers {
-  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 main .offers h2 {
