@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="assets/css/slick.css">
     </head>
     <body>
-        <?php include('template/header.php'); ?>
+        <?php include('views/header.php'); ?>
         <main>
             <section class="sliders">
                 <div>
