@@ -4,6 +4,7 @@ body {
   text-align: right;
   font-family: "iranyekan";
   font-size: 12px;
+  background: #eee;
 }
 
 .fa {
@@ -115,6 +116,9 @@ header .main-menu .container > ul > li .mega-menu ul li:first-child a:before {
   vertical-align: middle;
 }
 
+main .sliders {
+  margin-bottom: 2rem;
+}
 main .sliders .arrow {
   position: absolute;
   z-index: 100;
@@ -168,6 +172,210 @@ main .sliders .slick-dots li button:focus {
 }
 main .sliders .slick-dots li.slick-active button:after {
   background: #1ca2bd;
+}
+main .offers {
+  margin-bottom: 2rem;
+}
+main .offers h2 {
+  font-size: 22px;
+  margin-bottom: 2rem;
+  background: #f16670;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 0 0 10px 10px;
+}
+main .offers .slick-track {
+  padding: 15px 0;
+}
+main .offers .arrow {
+  position: absolute;
+  z-index: 100;
+  background: unset;
+  border: unset;
+  color: #000;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 15px 10px;
+  font-size: 32px;
+  line-height: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+main .offers .arrow.prev {
+  left: 15px;
+}
+main .offers .arrow.next {
+  right: 15px;
+}
+main .offers .arrow:focus {
+  outline: unset;
+}
+main .offers .product {
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+main .offers .product a {
+  color: #333;
+}
+main .offers .product a h3 {
+  font-size: 18px;
+  min-height: 63px;
+}
+main .offers .product a .price strong,
+main .offers .product a .price span {
+  display: block;
+}
+main .offers .product a .price strong {
+  font-size: 16px;
+  color: #f16670;
+}
+main .offers .product a .price span {
+  text-decoration: line-through;
+}
+main .offers .product a img {
+  margin-bottom: 1rem;
+  max-height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+main .ezafe {
+  margin-bottom: 2rem;
+}
+main .ezafe img {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+main .products {
+  margin-bottom: 2rem;
+}
+main .products .card {
+  border-radius: 5px;
+  border: unset;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+main .products h2 {
+  font-size: 22px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 1rem;
+  position: relative;
+}
+main .products h2:after {
+  content: "";
+  display: block;
+  background: #f16670;
+  height: 2px;
+  margin-top: 1rem;
+  position: absolute;
+  z-index: 100;
+  width: 20%;
+}
+main .products .slick-track {
+  padding: 15px 0;
+}
+main .products .arrow {
+  position: absolute;
+  z-index: 100;
+  background: unset;
+  border: unset;
+  color: #000;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 15px 10px;
+  font-size: 32px;
+  line-height: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+main .products .arrow.prev {
+  left: 15px;
+}
+main .products .arrow.next {
+  right: 15px;
+}
+main .products .arrow:focus {
+  outline: unset;
+}
+main .products .single {
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 15px;
+  transition: all 500ms;
+}
+main .products .single:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+main .products .single a {
+  color: #333;
+}
+main .products .single a h3 {
+  font-size: 18px;
+  min-height: 63px;
+}
+main .products .single a .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f16670;
+}
+main .products .single a .price span {
+  font-size: 12px;
+}
+main .products .single a img {
+  margin-bottom: 1rem;
+  max-height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer {
+  background: #aaa;
+  padding: 20px;
+}
+footer h5 {
+  font-size: 14px;
+}
+footer ul {
+  list-style: none;
+  padding-right: 0;
+  margin-bottom: 0;
+}
+footer ul li {
+  margin-bottom: 5px;
+}
+footer ul a {
+  color: #333;
+}
+footer input {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  border: 1px solid #fff;
+  width: 70%;
+}
+footer .social li {
+  display: inline-block;
+}
+footer .social li a {
+  display: block;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 50%;
+  font-size: 16px;
+  height: 46px;
+  width: 46px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=app.css.map */
