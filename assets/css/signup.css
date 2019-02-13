@@ -79,7 +79,7 @@ margin-top: 2rem;}
 input:checked + .ver::before {
     background: #00bfd6;
    
-}
+}   
 input:checked + .ver::after {
     opacity: 1;
 }
