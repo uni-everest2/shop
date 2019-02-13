@@ -1,0 +1,312 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>digikala</title>
+    <link rel="stylesheet" href="filterc.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body dir="rtl">
+    <div class="asl">
+            <main>
+                    <div class="row">
+                            <aside class="col-sm-3">
+                                    <div class="as">
+                                            <div class="shadow p-3 mb-5 bg-white rounded" id="asu">
+                                                <div class="fill">
+                                                <b class="fl">فیلترهای اعمال شده: </b>    <button class="btn btn-light" id="btnd">حذف</button>
+                                            </div>
+                                            <a href="#">
+                                            <span class="fas fa-times-circle" id="fi">Asus</span>
+                                        </a>
+                                            </div>
+                                            <!-- 
+                                            <div class="shadow p-3 mb-5 bg-white rounded" id="dah">
+                                                <div class="fill">
+                                                <b class="fl">فیلترهای اعمال شده: </b>    <button class="btn btn-light" id="btnd2">حذف</button>
+                                            </div>
+                                            <a href="#">
+                                            <span class="fas fa-times-circle" id="fi">Dahua</span>
+                                        </a>
+                                            </div>
+                                            <div class="shadow p-3 mb-5 bg-white rounded" id="ada">
+                                                <div class="fill">
+                                                <b class="fl">فیلترهای اعمال شده: </b>    <button class="btn btn-light" id="btnd3">حذف</button>
+                                            </div>
+                                            <a href="#">
+                                            <span class="fas fa-times-circle" id="fi">ADATA</span>
+                                        </a>
+                                            </div> -->
+                                            <div class="shadow p-3 mb-5 bg-white rounded">
+                                            <div>
+                                                    <span>
+                                                        <div class="fir">
+                                                            <div class="hhh">
+                                        <strong>دسته بندی نتایج  </strong><br><br>
+                                    </div>
+                                        <div>
+                                        <span class="fc">کالای دیجیتال <a href="#"><i class="fas fa-angle-down"></i></a></span>
+                                        <div class="al">
+                                            <div class="sc">
+                                            <span>کامپیوتر و تجهیزات جانبی <a href="#"> <i class="fas fa-angle-double-down"></i></a></span></div>
+                                            <div class="lis">
+                                                <ul class="list-group">
+                                                    <li class="riz">
+                                                    تجهیزات ذخیره سازی اطلاعات
+                                                    </li>
+                                                    <li class="riz">
+                                                    تجهیزات شبکه و ارتباطات
+                                                    </li>
+                                                    <li class="riz">
+                                                    کامپیوتر های all-in-one
+                                                    </li>
+                                                    <li class="riz">
+                                                    کیس های اسمبل شده
+                                                    </li>
+                                                    <li class="riz">
+                                                    کامپیوتر های کوچک
+                                                    </li>   
+                                                    <li class="riz">
+                                                    قطعات کامپیوتر
+                                                    </li> 
+                                                    <div class="mor">
+                                                        <div class="mo">
+                                                        <li class="riz">
+                                                            خنک کننده کامپیوتر
+                                                        </li>
+                                                        <li class="riz">
+                    
+                                                            نمایشگر(مانیتور)
+                                                        </li>
+                                                        <li class="riz">
+                                                            اسپیکر(بلندگو)
+                                                        </li>
+                                                    </div>
+                                                    </div>
+                                                    </ul></div>
+                                                
+                                        </div>
+                                    </div>
+                                        </div>
+                                    </span>
+                                </div>
+                                        <div class="more">
+                                            <center>
+                                                <button class="btn btn-link" id="more"> 
+                                                     موارد بیشتر
+                                                <i class="fas fa-angle-double-down"></i></button>
+                                            </center>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="se">
+                                    <div class="shadow-lg p-3 mb-5 bg-white rounded">
+                                        <div class="sse">
+                                        <strong>جستجو در نتایج:</strong><br><br>
+                                    </div>
+                                    <div class="in">
+                                            <i class="fas fa-search"></i>
+                                        <input type="search" name="ser" id="ser" placeholder=" نام محصول یا برند مورد نظر را بنویسید. ">
+                                    </div>
+                                    </div>
+                                    <div class="shadow p-3 mb-5 bg-white rounded">
+                                        <div class="bra">
+                                            <div class="btn btn-light" id="brand">برند  <i class="fas fa-angle-down" id="I1"></i></div>
+                                            <div class="m">
+                                                <input type="text" id="ba" class="ba" placeholder="جست و جوی نام برند ...">
+                                                <div class="brands">
+                                                    <ul>
+                                                        <div class="over"> 
+                                                        <li>
+                                                    <input type="checkbox" name="asus" id="asus" class="ch">
+                                                    <label for="asus">ASUS</label>
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="Dahua" id="Dahua" class="ch">
+                                                    <label for="Dahua">DAHUA</label>
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="ADATA" id="ADATA" class="ch">
+                                                    <label for="ADATA">ADATA</label>
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="MSI" id="MSI" class="ch">
+                                                    <label for="MSI">MSI</label>
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="D-LINK" id="D-LINK" class="ch">
+                                                    <label for="D-LINK">D-LINK</label>
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="Silicon-Power" id="Silicon-Power" class="ch">
+                                                    <label for="Silicon-Power">Silicon-Power</label>
+                                                </li>
+                                                <li>
+                                                        <input type="checkbox" name="HP" id="HP" class="ch">
+                                                        <label for="HP">HP</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" name="Gerdoo" id="Gerdoo" class="ch">
+                                                        <label for="Gerdoo">Gerdoo</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" name="TSCO" id="TSCO" class="ch">
+                                                        <label for="TSCO">TSCO</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" name="TP-LINK" id="TP-LINK" class="ch">
+                                                        <label for="TP-LINK">TP-LINK</label>
+                                                    </li>
+                                                </div>
+                                                <li>
+                                                    <input type="checkbox" name="Samsung" id="Samsung" class="ch">
+                                                    <label for="Samsung">Samsung</label>
+                                                </li>
+                                                <li>
+                                                        <input type="checkbox" name="Genius" id="Genius" class="ch">
+                                                        <label for="Genius">Genius</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" name="XP-Product" id="XP-Product" class="ch">
+                                                        <label for="XP-Product">XP-Product</label>
+                                                    </li>
+                                                    <li>
+                                                            <input type="checkbox" name="Apacer" id="Apacer" class="ch">
+                                                            <label for="Apacer">Apacer</label>
+                                                    </li>
+                                                </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="shadow p-3 mb-5 bg-white rounded" id="fiill">
+                                            <input type="checkbox" name="moj" id="moj">
+                                            <label for="moj">فقط کالا های موجود</label>
+                                    </div>
+                                </div>
+                            </aside>
+                        <div class="col-sm-9">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="card product">
+                                        <a href="#">
+                                        <img src="https://dkstatics-public.digikala.com/digikala-products/869604.jpg?x-oss-process=image/resize,m_lfit,h_500,w_500/quality,q_80" class="card-img-top" alt="SE846">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="#">
+                                                <h5 class="card-title">هدفون نو گوشی شور مدل SE846</h5>
+                                            </a>
+                                        </div>
+                                        <div class="card-footer">
+                                            <b class="text-muted">13900000 تومان</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card product">
+                                        <a href="#">
+                                        <img src="https://dkstatics-public.digikala.com/digikala-products/869604.jpg?x-oss-process=image/resize,m_lfit,h_500,w_500/quality,q_80" class="card-img-top" alt="SE846">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="#">
+                                                <h5 class="card-title">هدفون نو گوشی شور مدل SE846</h5>
+                                            </a>
+                                        </div>
+                                        <div class="card-footer">
+                                            <b class="text-muted">13900000 تومان</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card product">
+                                        <a href="#">
+                                        <img src="https://dkstatics-public.digikala.com/digikala-products/869604.jpg?x-oss-process=image/resize,m_lfit,h_500,w_500/quality,q_80" class="card-img-top" alt="SE846">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="#">
+                                                <h5 class="card-title">هدفون نو گوشی شور مدل SE846</h5>
+                                            </a>
+                                        </div>
+                                        <div class="card-footer">
+                                            <b class="text-muted">13900000 تومان</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card product">
+                                        <a href="#">
+                                        <img src="https://dkstatics-public.digikala.com/digikala-products/869604.jpg?x-oss-process=image/resize,m_lfit,h_500,w_500/quality,q_80" class="card-img-top" alt="SE846">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="#">
+                                                <h5 class="card-title">هدفون نو گوشی شور مدل SE846</h5>
+                                            </a>
+                                        </div>
+                                        <div class="card-footer">
+                                            <b class="text-muted">13900000 تومان</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card product">
+                                        <a href="#">
+                                        <img src="https://dkstatics-public.digikala.com/digikala-products/869604.jpg?x-oss-process=image/resize,m_lfit,h_500,w_500/quality,q_80" class="card-img-top" alt="SE846">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="#">
+                                                <h5 class="card-title">هدفون نو گوشی شور مدل SE846</h5>
+                                            </a>
+                                        </div>
+                                        <div class="card-footer">
+                                            <b class="text-muted">13900000 تومان</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card product">
+                                        <a href="#">
+                                        <img src="https://dkstatics-public.digikala.com/digikala-products/869604.jpg?x-oss-process=image/resize,m_lfit,h_500,w_500/quality,q_80" class="card-img-top" alt="SE846">
+                                        </a>
+                                        <div class="card-body">
+                                            <a href="#">
+                                                <h5 class="card-title">هدفون نو گوشی شور مدل SE846</h5>
+                                            </a>
+                                        </div>
+                                        <div class="card-footer">
+                                            <b class="text-muted">13900000 تومان</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </main>
+    </div>
+        <script>
+            $(".more").click(function() {
+                $(".mor").fadeToggle(20);
+            })
+            $("#brand").click(function() {
+                $(".m").fadeToggle(20);
+            })
+            $(".fc").click(function() {
+                $(".al").fadeToggle(20);
+            })
+            $(".sc").click(function() {
+                $(".lis").fadeToggle();
+            })
+            $("#asus").click(function(){
+                $("#asu").fadeToggle();
+            })
+            $("#btnd").click(function(){
+                $("#asu").hide();
+                $("input:checked").prop('checked', false);
+            })
+        </script>
+</body>
+</html>
