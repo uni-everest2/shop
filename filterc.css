@@ -1,6 +1,7 @@
 body{
     direction: rtl;
     text-align: right;
+    text-decoration: none;
 }
 .asl{
     background-color: #f5f5f5;
@@ -18,7 +19,6 @@ ul{
 aside{
     width:100px;
     text-align: right;
-    margin-right: 15px;
 }
 
 .as{
@@ -165,4 +165,40 @@ cursor: pointer;
 }
 #asu{
     display: none;
+}
+.card-title{
+    font-size: 2px;
+    text-decoration: unset;
+    color: black;
+    direction: rtl;
+}
+.card-title:hover{
+    text-decoration: unset;
+}
+.im{
+    width: 50px;
+}
+.card:hover{
+    box-shadow: 3px 3px 3px rgb(196, 196, 196);
+}
+.card{
+    width: 16rem;
+    size: 16rem;
+    display: inline-block;
+}
+.product{
+    width: 16rem;
+    size: 16rem;
+    text-align: center;
+}
+.product img {
+    max-height: 150px;
+    width: auto;
+}
+.card-group{
+    display: inline;
+    max-width: 900px;
+}
+.col-sm-4{
+padding: 0;
 }
