@@ -1,0 +1,71 @@
+body {
+    direction: rtl;
+    text-align: right;
+    background: #f7f7f7;
+    font-family: "iranyekan";
+}
+p {
+    font-size: 1.10rem;
+    font-weight: lighter;
+    margin-top: 2rem;
+}
+input {
+     border-radius: 5px;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    color: #717171;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 1.571;
+    padding: 11px 12px;
+        padding-left: 12px;
+    width: 70%;
+    letter-spacing: -.8px;
+}
+
+h1 {
+    margin-top: 10px;
+    color: #555555;
+}
+#btn {
+    font-size: 16px;
+    font-size: 1.143rem;
+    line-height: 1.375;
+    border-radius: 8px;
+    background-color: #00bfd6;
+    border: 1px solid #41a7b4;
+    padding: 14px 31px;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+
+textarea {
+         border-radius: 5px;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    color: #717171;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 1.571;
+    padding: 11px 12px;
+        padding-left: 12px;
+    width: 100%;
+    letter-spacing: -.8px;
+    margin-top: 2rem;
+}
+.lt {
+    font-size: 1.2rem;
+}
+.cricle2,
+.cricle{
+    background: rgb(240, 29, 39);
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+.cricle2 {
+    background: #00bfd6;
+}

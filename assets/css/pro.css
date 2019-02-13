@@ -1,0 +1,73 @@
+.body{
+    direction: rtl;
+    text-align: right;
+}
+.m1{
+ border-width:1px; 
+ border-color:gray;   
+ border-style:solid;
+ display: inline-block;
+ margin-top: 2rem;
+}
+.fas fa-address-card{
+    border-width:1px; 
+    border-color:gray;   
+    border-style:solid;
+    display: inline-block;
+    border-radius:50%; 
+}
+.m1 i{
+   color: black;
+   direction: none;
+    text-align: center;
+    font-size: 150%;
+}
+.m2 a{
+    font-size: 70%;
+    color: grey; 
+    text-decoration: none;
+}
+#m3 form{
+    border:1px gray solid; 
+    /* display: inline-block; */
+    margin-right: 2rem;
+    list-style: none;
+}
+#m3 p{
+    margin-right: 2rem;
+}
+#m3 ul{
+    list-style: none;
+}
+/* #m4 form{
+    border-width:1px; 
+    border-color:gray;   
+    border-style:solid;
+    display: inline-block;
+    padding: 100px 100px 100px 100px;
+} */
+.c-profile-menu{
+    background-color: #fff;
+    box-shadow: 0 12px 12px 0 hsla(0,0%,71%,.1);
+    border: 1px solid #dedede;
+    margin-bottom: 21px;
+    display: inline-block;
+   
+}
+.c-profile-menu a{
+color: rgb(32, 30, 30);
+text-decoration: none;
+}
+.c-profile-menu ul{
+    list-style: none;
+}
+.m5{
+    border: 1px gray solid;
+    margin-bottom:2rem;
+    max-width:40rem;
+    
+}
+.m6{
+    margin-bottom: 30px;
+    margin-right: 200px;
+}

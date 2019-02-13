@@ -1,3 +1,30 @@
+<?php
+    require('config.php');
+    session_start();
+    if (count($_SESSION['cart']) == 0) {
+        $_SESSION['cart'] = array();
+    }
+    if (isset($_GET['q'])) {
+        $q = $_GET['q'];
+        if ($q == 'add') {
+            $product_id = $_GET['id'];
+            $dastoorsql = "SELECT * FROM `products` WHERE `id` = $product_id";
+            $alireza = mysqli_query($connect, $dastoorsql);
+            $product = mysqli_fetch_object($alireza);
+            $cartProduct = array(
+                "id" => $product->id,
+                "name" => $product->name,
+                "price" => $product->price,
+                "image" => $product->img,
+                "qty" => $_GET['tedad']
+            );
+            // $_SESSION['cart'] = $cartProduct;
+            $_SESSION['cart'] = array_merge($_SESSION['cart'], $cartProduct);
+            header("Location: cart.php");
+        }
+    }
+    print_r($_SESSION['cart']);
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
