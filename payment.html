@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/fontiran.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <title>payment</title>
+</head>
+<body>
+        <div class="row">
+          <div class="col-75">
+            <div class="container">
+              <form action="/action_page.php">
+              
+                <div class="row">
+                  <div class="col-50">
+                    <h3>آدرس</h3>
+                    <label for="fname"><i class="fa fa-user"></i> نام و نام خانوادگی</label>
+                    <input type="text" id="fname" name="firstname" placeholder="رضا تهرانی">
+                    <label for="email"><i class="fa fa-envelope"></i> ایمیل</label>
+                    <input type="text" id="email" name="email" placeholder="john@example.com">
+                    <label for="adr"><i class="fa fa-address-card-o"></i> آدرس</label>
+                    <input type="text" id="adr" name="address" placeholder="گوهردشت خیابان....">
+                    <label for="city"><i class="fa fa-institution"></i> شهر</label>
+                    <input type="text" id="city" name="city" placeholder="تهران">
+        
+                    <div class="row">
+                      <div class="col-50">
+                      </div>
+                      <div class="col-50">
+                        <label for="zip">کد پستی</label>
+                        <input type="text" id="zip" name="zip" placeholder="10001">
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-50">
+                    <h3>درگاه پرداخت</h3>
+                    <label for="fname">درگاه ها</label>
+                    <div class="icon-container">
+                      <i class="fa fa-cc-visa" style="color:navy;"></i>
+                      <i class="fa fa-cc-amex" style="color:blue;"></i>
+                      <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                      <i class="fa fa-cc-discover" style="color:orange;"></i>
+                    </div>
+                    <label for="cname">انتخاب شیوه پرداخت</label>
+                    <input type="text" id="cname" name="cardname" placeholder="رضا تهرانی">
+                    <label for="ccnum">شماره کارت</label>
+                    <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                    <label for="expmonth">ماه</label>
+                    <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                    <div class="row">
+                      <div class="col-50">
+                        <label for="expyear">سال</label>
+                        <input type="text" id="expyear" name="expyear" placeholder="2018">
+                      </div>
+                      <div class="col-50">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" name="cvv" placeholder="352">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-25">
+            <div class="container">
+              <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+              <p><a hre   ÷1f="#">محصول 1</a> <span class="price">$15</span></p>
+              <p><a href="#">محصول 2</a> <span class="price">$5</span></p>
+              <p><a href="#">محصول 3</a> <span class="price">$8</span></p>
+              <p><a href="#">محصول 4</a> <span class="price">$2</span></p>
+              <hr>
+              <p>جمع کل <span class="price" style="color:black"><b>$30</b></span></p>
+            </div>
+          </div>
+        </div>
+        
+    
+</body>
+</html>
