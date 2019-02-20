@@ -1,0 +1,62 @@
+body{
+  text-align: center;
+}
+main{
+    padding: 8px;
+    margin-top: 100px;
+    text-align: center;
+    background-color:white;
+    display: inline-block;
+    border-top: 13px solid #3CB878;
+    border-bottom: 10px solid #3CB878;  
+ }
+.check{
+    top: 55px;
+    color: white;
+    font-size:50px;
+    border-radius: 50%;
+    display: inline-block;
+    background: linear-gradient(0deg,#097E42 ,#2DA266);
+    position: absolute;
+    padding: 6px;
+    right: 640px;
+    
+}
+.checkk{
+    background-color:#3CB878 ;
+    border-radius: 50%;
+    padding: 0 15px 7px 18px;
+}
+h2{
+    padding-top: 10px;
+    margin: 20px;
+    font-size: 30px;
+    direction: ltr;
+    color: #3CB878;
+    display: inline-block;
+    border-bottom: 2px solid #3CB878;
+    padding-bottom: 15px;
+    animation: bor 500ms normal;
+    animation-iteration-count: 1;
+}
+p{
+  font-size: 16px;
+  padding-top: 10px;
+  animation: bor 500ms normal;
+  animation-iteration-count: 1;
+}
+.in{
+    border: 1px solid rgba(0,0,0,.08);
+    border-radius: 3px;
+    padding: 30px 224px 30px 224px;
+    animation: bord 500ms normal;
+    animation-iteration-count: 1;
+}
+@keyframes bord{
+  from{padding:  0px 224px 0px 224px;}
+  to{padding:  30px 224px 30px 224px;}
+}
+@keyframes bor{
+    from{padding-top: 0px;}
+    to{padding-top: 10px;}
+}
