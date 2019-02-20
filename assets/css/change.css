@@ -1,0 +1,93 @@
+body{
+    direction: rtl;
+    background-color: rgb(243, 240, 240);
+    margin-top: 20px;
+}
+.tab{
+    text-align: right;
+    background-color: aquamarine;
+}
+.wish{
+    text-align: right;
+    position: relative;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    list-style: none;
+    display: flex;
+}
+.wish-1{
+    font-size: 1.28rem;
+    line-height: 34px;
+    color: #323232;
+    border-left: 1px solid #ccc;
+    padding: 0 13px;
+}
+.wish-2{
+    border-left: 1px solid #ccc;
+    padding: 0 13px;
+    line-height: 34px;
+    font-size: 1rem;
+}
+.a1{
+    text-align: right;
+    margin-top: 20px;
+}
+.a2{
+    margin-top: 50px;
+}
+.a2 img{
+    margin-right: 7px;
+}
+.change{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #f5f5f5;
+    top: 50%;
+    right: 16px;
+    border: none;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #999;
+}
+.a3 h4{
+color: #555;
+font-size: 0.9rem;
+}
+.a3 a:hover{
+    text-decoration: none;
+}
+.stars{
+    color: #ffc107;
+    margin-top: 12px;
+    font-size: 0.6rem;
+}
+.price{
+    font-size: 1.286rem;
+    line-height: 1.222;
+    font-weight: 500;
+    color: #fb3449;
+}
+.a5{
+    border-radius: 8px;
+    background-color: #00bfd6;
+    border: 1px solid #41a7b4;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 9px;
+    max-width: 100px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.55rem;
+}
+.a5:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.a7{
+background-color: #fff;
+padding: 12px 1px 12px 0;
+}

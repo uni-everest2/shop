@@ -1,0 +1,53 @@
+main .category .row .col-sm-4 > div {
+    border: 1px solid #ccc;
+}
+
+ul {
+    list-style: none;
+    padding: 0rem;
+    margin-top: 5px;
+    padding-right: 2rem;
+}
+.mobail{
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+}
+.tab{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.lap{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.camera{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.camputer{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.machin{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.digital{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.card{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.ps4{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+a{
+    color:black;
+}
+a:hover {
+    text-decoration: unset;
+}
