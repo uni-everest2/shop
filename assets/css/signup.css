@@ -1,22 +1,23 @@
-body {
+body{
     background: #f7f7f7;
     font-family: "iranyekan";
 }
-main {
+main{
     text-align: center;
 }
-.menu { background: #ffff;
-font-size: 1rem;
-border: 0.10rem solid #dedede;
-text-align: right;
-margin-bottom: 100px;
-box-shadow: 0 12px 12px 0 hsla(0,0%,71%,.11);
+.menu{ background: #ffff;
+    font-size: 1rem;
+    border: 0.10rem solid #dedede;
+    text-align: right;
+    box-shadow: 0 12px 12px 0 hsla(0,0%,71%,.11);
 
 }
 
-form {padding: 20px;}
+form{
+    padding: 20px;
+}
 
-.headline {
+.headline{
     text-decoration: rtl;
     text-align: right;
     font-size: 2rem;
@@ -24,29 +25,28 @@ form {padding: 20px;}
     padding:20px;
 }
 
-input { display: block;
-border: solid 0.09rem #c8c8c8;
-border-radius: 10px;
+input{ 
+    display: block;
+    border: solid 0.09rem #c8c8c8;
+    border-radius: 10px;
     margin-bottom:10px;
     width: 20rem;
     height: 2rem;
     padding-right: 11px;
      font-size: 1.1rem;
 }
-
 input:focus{
-    
-border: solid 0.09rem rgb(54, 48, 48);
-
-
+    border: solid 0.09rem rgb(54, 48, 48);
 }
 
-#verify { 
-display: none;}
-p {font-size: 1.2rem;
-margin-right: 3.9rem;
-margin-top: 2rem;}
-.ver {
+#verify{ 
+    display: none;}
+p{
+    font-size: 1.2rem;
+    margin-right: 3.9rem;
+    margin-top: 1rem;
+}
+.ver{
     display: inline-block;
     font-size: 17px;
     position: relative;
@@ -84,24 +84,24 @@ input:checked + .ver::after {
     opacity: 1;
 }
 #btn {
-margin-top: 10px;
-width: 10rem;
-height: 3rem;
-margin-right: 150px;
-background-color: #28a745;
-background-image: linear-gradient(-180deg,#34d058,#28a745 90%);
-color: #fff;
-transition-delay: 300ms;
-}
-#btn:hover {
-        margin-top: 10px;
-    width: 10rem;
+    margin-top: 10px;
+    width: 13rem;
     height: 3rem;
     margin-right: 150px;
-    background-color: #1846e0;
-    background-image: linear-gradient(-180deg,#4792e7,#15b0df 90%);
+    background-color: #1fe44d;
+    /* background-image: linear-gradient(-180deg,#34d058,#28a745 90%); */
     color: #fff;
-    transition-delay: 300ms;
+    transition: 300ms;
+}
+#btn:hover{
+    margin-top: 10px;
+    width: 13rem;
+    height: 3rem;
+    margin-right: 150px;
+    background-color: #1c51ff;
+    /* background-image: linear-gradient(-180deg,#4792e7,#15b0df 90%); */
+    color: #fff;
+    transition: 300ms;
 }
 
 
@@ -112,4 +112,6 @@ transition-delay: 300ms;
     border-top: 0.10rem solid #dedede; 
     padding:20px;
 }
-label {font-size:1.2rem;}
+label {
+    font-size:1.2rem;
+}
