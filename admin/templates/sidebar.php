@@ -13,7 +13,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="products.php">
+                        <a href="products/index.php">
                             <i class="now-ui-icons education_atom"></i>
                             <p>محصولات</p>
                         </a>
